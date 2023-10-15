@@ -82,16 +82,20 @@ local ESP = Misc:CreateToggle({
   		if PlayerTeam() == 2 then
    				if Value == true then
    					for i,v in pairs(game.Players:GetChildren()) do
-   						if v.Character.FancyHat.Transparency ~= 0 then
-   							v.Character.PlayerOutline.Enabled = true
+						if v.Character:FindFirstChild("FancyHat")
+   							if v.Character.FancyHat.Transparency ~= 0 then
+   								v.Character.PlayerOutline.Enabled = true
+   							end
    						end
-   					end
+					end
    				else
    				for i,v in pairs(game.Players:GetChildren()) do
-   					if v.Character.FancyHat.Transparency ~= 0 then
-   						v.Character.PlayerOutline.Enabled = false
+					if v.Character:FindFirstChild("FancyHat")
+   						if v.Character.FancyHat.Transparency ~= 0 then
+   							v.Character.PlayerOutline.Enabled = false
+   						end
    					end
-   				end
+				end
    			end
    		end
    end,
