@@ -29,7 +29,7 @@ function PlayerTeam()
 		end
 	end
 end
-local Window = Rayfield:CreateWindow({Name = "Window for: "..Plr.DisplayName,LoadingTitle = "By pidor#6391",LoadingSubtitle = "Loading...",})
+local Window = Rayfield:CreateWindow({Name = "Window for: "..Plr.DisplayName,LoadingTitle = "By blackassniger",LoadingSubtitle = "Loading...",})
 local Misc = Window:CreateTab("Misc", 12120687742)
 local Troll = Window:CreateTab("Troll", 7258918524)
 Notify("Loaded!","This script is Open Source!",3,111291109)
