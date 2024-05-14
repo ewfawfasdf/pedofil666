@@ -46,6 +46,22 @@ Section2:Button({
     end,
 })
 Section2:Button({
+    text = "Niggers2",
+    callback = function()
+        workspace:WaitForChild("Arabalar"):WaitForChild("Tofas"):WaitForChild("AC6_FE_Sounds"):FireServer("newSound","SinGitlera",game.Workspace,"rbxasseetid://2591308788",1,1,looped)
+        workspace:WaitForChild("Arabalar"):WaitForChild("Tofas"):WaitForChild("AC6_FE_Sounds"):FireServer("playSound","SinGitlera")
+        workspace:WaitForChild("Arabalar"):WaitForChild("Tofas"):WaitForChild("AC6_FE_Sounds"):FireServer("updateSound","SinGitlera","rbxassetid://2591308788",0.15,Volume)
+    end,
+})
+Section2:Button({
+    text = "Nigger3",
+    callback = function()
+        workspace:WaitForChild("Arabalar"):WaitForChild("Tofas"):WaitForChild("AC6_FE_Sounds"):FireServer("newSound","SinGitlera",game.Workspace,"rbxasseetid://2593892407",1,1,looped)
+        workspace:WaitForChild("Arabalar"):WaitForChild("Tofas"):WaitForChild("AC6_FE_Sounds"):FireServer("playSound","SinGitlera")
+        workspace:WaitForChild("Arabalar"):WaitForChild("Tofas"):WaitForChild("AC6_FE_Sounds"):FireServer("updateSound","SinGitlera","rbxassetid://2593892407",0.15,Volume)
+    end,
+})
+Section2:Button({
     text = "Crab Dance",
     callback = function()
         workspace:WaitForChild("Arabalar"):WaitForChild("Tofas"):WaitForChild("AC6_FE_Sounds"):FireServer("newSound","SinGitlera",game.Workspace,"rbxassetid://5410086218",1,1,looped)
