@@ -1,0 +1,10 @@
+{
+    "test": {
+        "hwid": "",
+        "user": "user1"
+    },
+    "test2": {
+        "hwid": "",
+        "user": "user2"
+    }
+}
